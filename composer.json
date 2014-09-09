@@ -1,0 +1,11 @@
+{
+    "require": {
+        "yiisoft/yii": "~1.1.15",
+        "sleepwalker/hoauth": "~1.2.5",
+        "sleepwalker/yii-user": "dev-master"
+    },
+
+    "config": {
+        "vendor-dir": "protected/vendor"
+    }
+}
