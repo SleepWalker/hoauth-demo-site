@@ -12,6 +12,8 @@ return array(
 	// preloading 'log' component
 	'preload'=>array('log'),
 
+	'theme' => 'classic',
+
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
@@ -34,6 +36,11 @@ return array(
 		*/
         'user'=>array(
         	'class' => 'application.vendor.sleepwalker.yii-user.UserModule',
+
+        	'controllerMap' => array(
+        		'login' => 'LoginController',
+        		),
+
             # encrypting method (php hash function)
             'hash' => 'md5',
 
