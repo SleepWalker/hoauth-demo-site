@@ -1,3 +1,5 @@
 assets
 protected/vendor
 protected/runtime
+composer.lock
+protected/config/hoauth.php
