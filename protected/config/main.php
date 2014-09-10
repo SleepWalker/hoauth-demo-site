@@ -38,7 +38,7 @@ return array(
         	'class' => 'application.vendor.sleepwalker.yii-user.UserModule',
 
         	'controllerMap' => array(
-        		'login' => 'LoginController',
+        		'login' => 'LoginWithHOAuthController',
         		),
 
             # encrypting method (php hash function)
