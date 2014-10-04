@@ -16,7 +16,7 @@ This is source code of the demo site at http://hoauth.hamstercms.com/yii-user
 * Edit your db and app config based on [readme](https://github.com/SleepWalker/yii-user) (**for this repo you should specify only db config in protected/config/db.php**)
 * Add `require_once(dirname(__FILE__).'/protected/vendor/autoload.php');` to your `index.php` file (**This was already done for you and included in repo**)
 * Create `.htaccess` file if you using Apache (**Already done**)
-* Run migration `./protected/yiic migrate --migrationPath=user.migrations`
+* Run migration `./protected/yiic migrate --migrationPath=application.vendor.sleepwalker.yii-user.migrations`
 
 ### Integrate with `hoauth`
 To integrate `hoauth` with `yii-user` there was created new views in `themes/classic/views/user`.
